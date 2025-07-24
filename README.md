@@ -18,3 +18,7 @@ Spusti nasledovné príkazy na Raspberry Pi (alebo inom Debian systéme):
     cd print-scan-rpi
     chmod +x install.sh
     sudo ./install.sh
+ 
+ Počas inštalácie bude spustený aj hp-plugin – nástroj pre sťahovanie a inštaláciu proprietárnych HP ovládačov. V niektorých prípadoch je potrebné potvrdiť licenciu a výber zariadenia. Ak si inštaláciu zrušil, môžeš ju kedykoľvek zopakovať:
+ 
+     sudo hp-plugin -i
