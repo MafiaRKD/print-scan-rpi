@@ -14,7 +14,7 @@ Tento repozitár slúži ako jednoduchý inštalátor pre Raspberry Pi, ktorý:
 
 Spusti nasledovné príkazy na Raspberry Pi (alebo inom Debian systéme):
 
-    git clone https://github.com/<tvoje-username>/print-scan-rpi.git
+    git clone https://github.com/MafiaRKD/print-scan-rpi.git
     cd print-scan-rpi
     chmod +x install.sh
     sudo ./install.sh
